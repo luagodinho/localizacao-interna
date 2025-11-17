@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Interno</title>
+  <style>
+    #mapContainer { position: relative; display: inline-block; }
+    .pin {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+      transform: translate(-50%, -100%);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Mapa Interno</h2>
+
+<div id="mapContainer">
+  <img id="map" src="planta.jpg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
